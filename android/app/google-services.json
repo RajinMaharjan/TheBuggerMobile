@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "664303562449",
+    "project_id": "qa-lint",
+    "storage_bucket": "qa-lint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664303562449:android:1e7421ff16ebd97ba3dff0",
+        "android_client_info": {
+          "package_name": "org.vurilo.qa_lint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664303562449-8hg6kjd4f0mhi37tvk10urk6aik4sseq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.vurilo.qa_lint",
+            "certificate_hash": "4a7263bd9886b9a1f8c9772855fd86e6f43d4d03"
+          }
+        },
+        {
+          "client_id": "664303562449-oitsud0g9f6vudvde1adeh8mh5lu7c7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWuMe1bpKuruDxo4s7FIpqad9x52ZS-IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664303562449-oitsud0g9f6vudvde1adeh8mh5lu7c7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

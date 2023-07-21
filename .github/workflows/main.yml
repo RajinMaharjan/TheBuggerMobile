@@ -1,0 +1,31 @@
+name: build-android-app
+on:
+  push:
+    branches:
+      - 'internal/*'
+jobs:
+  build:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: ./android
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: 11
+          distribution: 'adopt'
+          
+      - name: Download Gradle
+        run: |
+          curl -s https://get.gradle.com/ | sh
+          export PATH=$PATH:/home/runner/gradle-7.4/bin
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '3.10.5'
+      - run: fastlane alpha
+       
